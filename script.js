@@ -15,12 +15,12 @@ function toggleMode() {
      img.setAttribute('src', './assets/caofeliz1.png')
    }else {
      // se tiver sem light mode, manter a imagem normal
-     img.setAttribute('src', './assets/avatar1.png')
+     img.setAttribute('src', './assets/avatarcumuruvillage.png')
    }
   const alt = document.querySelector("#profile alt") 
    if(html.classList.contains("light")) {
     alt.setAttribute('alt', 'Cao Feliz')
    }else {
-    alt.setAttribute('alt', 'Rafael, óculos, praia')
+    alt.setAttribute('alt', 'Cumuru-Village')
    }  
 }
