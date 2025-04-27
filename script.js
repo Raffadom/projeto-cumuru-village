@@ -12,14 +12,14 @@ function toggleMode() {
   //substituir a imagem
    if(html.classList.contains("light")) {
      // se tiver light mode, adicionar a imagem light
-     img.setAttribute('src', './assets/caofeliz1.png')
+     img.setAttribute('src', './assets/avatarcumuruvillage.png')
    }else {
      // se tiver sem light mode, manter a imagem normal
      img.setAttribute('src', './assets/avatarcumuruvillage.png')
    }
   const alt = document.querySelector("#profile alt") 
    if(html.classList.contains("light")) {
-    alt.setAttribute('alt', 'Cao Feliz')
+    alt.setAttribute('alt', 'Cumuru-Village2')
    }else {
     alt.setAttribute('alt', 'Cumuru-Village')
    }  
